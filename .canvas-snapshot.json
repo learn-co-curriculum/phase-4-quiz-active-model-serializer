@@ -1,0 +1,490 @@
+{
+  "quiz": {
+    "id": 18769,
+    "title": "Active Model Serializer Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/4182/quizzes/18769",
+    "mobile_url": "https://learning.flatironschool.com/courses/4182/quizzes/18769?force_user=1&persist_headless=1",
+    "description": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.\\n\\nIf you don't know the answer to a question, please do not guess. Instead, select \\&quot;I don't know\\&quot;. It's OK not to know everything and to admit when we're unsure.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:33667,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16573901},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;18&quot;:1}\">It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.<br><br>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": false,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 8,
+    "points_possible": 8.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_18769"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": "until_after_last_attempt",
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18769/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18769/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/4182/quizzes/18769/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/4182/quizzes/18769/submission_versions",
+    "assignment_id": 126719,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 8385,
+    "show_correct_answers_last_attempt": false,
+    "version_number": 1,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 18769,
+      "id": 123863,
+      "quiz_group_id": null,
+      "assessment_question_id": 134151,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Which of the steps below are necessary to use Active Model Serializer in your application (select all that apply):</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "8805",
+          "text": "Add the gem to your gemfile and activate it by running `bundle install`",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "7926",
+          "text": "Create a serializer, either directly or by using the Rails serializer generator",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "3631",
+          "text": "In the serializer, list out the attributes you want to be included in the json",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "5594",
+          "text": "Specify which serializer to use in the controller",
+          "comments": "",
+          "comments_html": "<p><span>This is only necessary if you give a serializer a name that doesn’t follow naming conventions</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": "9628",
+          "text": "Follow naming conventions in naming your serializer",
+          "comments": "",
+          "comments_html": "<p><span>While it is good practice to follow naming conventions, you can use a serializer with a non-standard name by passing it explicitly</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": "2735",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123864,
+      "quiz_group_id": null,
+      "assessment_question_id": 134152,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "fill_in_multiple_blanks_question",
+      "question_text": "<p><span>Your app includes a User model with `first_name`, `last_name`, and `title` (“Ms.”, “Mx.”, etc.) attributes. You want the json for your User routes to include an honorific (for example, “Dr. Valdez”). Fill in the blanks in the custom method below to implement this:</span></p>\n<pre>#user_serializer.rb<br>def honorific<br>  \"#{[title]} #{[lastname]}\"<br>end</pre>\n<p>&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "878",
+          "text": "self.object.title",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "title"
+        },
+        {
+          "id": "1372",
+          "text": "self.object.last_name",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "blank_id": "lastname"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123865,
+      "quiz_group_id": null,
+      "assessment_question_id": 134153,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "short_answer_question",
+      "question_text": "<p><span>Consider an app with Chef, Recipe and Review resources, where chefs have many recipes and recipes have many reviews. In the Chef show route, you want the json to include a list of the chef’s recipes and a list of each recipe’s reviews. Fill in the blank in the controller code below to implement this.</span></p>\n<pre><span>#chefs_controller.rb<br>def show<br>  chefs = Chef.all<br>  render json: chefs, include: [__________]<br>end</span></pre>\n<p>&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "740",
+          "text": "'recipes', 'recipes.reviews'",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "2721",
+          "text": "\"recipes\", \"recipes.reviews\"",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4680",
+          "text": "recipes, recipes.reviews",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123866,
+      "quiz_group_id": null,
+      "assessment_question_id": 134154,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Consider an app with Chef, Recipe and Review resources, where chefs have many recipes and recipes have many reviews. In the Chef show route, you want the json to include a list of the chef’s recipes and a list of each recipe’s reviews. To produce the desired json for this route, you need to: (select all that apply)</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "65",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Include <code>has_many :recipes</code> in the Chef serializer</p>"
+        },
+        {
+          "id": "8151",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0,
+          "html": "<p>Include <code>has_many :reviews</code> in the Recipe serializer</p>"
+        },
+        {
+          "id": "8216",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p><span>You should only include the <code>has_many</code> association method in the serializer that you want the reviews to be directly nested under in your json</span></p>",
+          "weight": 0.0,
+          "html": "<p>Include <code>has_many :reviews</code> in the Chef serializer</p>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123867,
+      "quiz_group_id": null,
+      "assessment_question_id": 134166,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>Which of the following are advantages of using Active Model Serializer over Active Record’s <code>to_json</code> method to specify the structure of your json? (select all that apply)</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": "741",
+          "text": "It keeps code that specifies how the response is structured out of the controllers.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "2675",
+          "text": "It results in controller code that is easier to write, read and maintain.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "4967",
+          "text": "It makes it unnecessary to build out json strings by hand, which is cumbersome and error prone.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": "5919",
+          "text": "It gives you greater flexibility in terms of how your json is formatted (While Active Model Serializer makes it easier to specify the structure of your json, you can obtain the same results using either approach)",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": "9563",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123868,
+      "quiz_group_id": null,
+      "assessment_question_id": 134167,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>If you only have a single resource, there’s no advantage to using Active Model Serializer (false) ()</span></p>\n<p>&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p><span>Even with just a single resource, if you want to specify which attributes to include in your json, using Active Model Serializer is more consistent with the Rails principle of separation of concerns.</span></p>",
+          "text": "True",
+          "weight": 0,
+          "id": 3536
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 100,
+          "id": 3967
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123869,
+      "quiz_group_id": null,
+      "assessment_question_id": 134168,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "true_false_question",
+      "question_text": "<p><span>You can explicitly specify a serializer to use inside another serializer.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 100,
+          "id": 1503
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 0,
+          "id": 3573
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 18769,
+      "id": 123870,
+      "quiz_group_id": null,
+      "assessment_question_id": 134169,
+      "position": null,
+      "question_name": "Active Model Serializer",
+      "question_type": "multiple_choice_question",
+      "question_text": "<ol start=\"8\">\n<li><span> Consider an app with Author and Book resources, where authors have many books and books belong to an author. You want to create two Book serializers: one to display details about books in the Book routes, and a second to use for the Author <code>show</code> route (AuthorBookSerializer) that displays just the title and publication date for each of the author’s books. Which of the following do you need to do:</span></li>\n</ol>\n<p><span><span>Use the `include` option in the Author controller. ()</span></span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 5608,
+          "text": "Explicitly pass the AuthorBookSerializer in the Author serializer.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 1801,
+          "text": "Explicitly pass the AuthorBookSerializer in the Author controller.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 4768,
+          "text": "",
+          "html": "<p>Include the <code>belongs_to :author</code> association method in the Book serializer.</p>",
+          "comments": "",
+          "comments_html": "<p><span>This is a tricky one! It is not necessary to complete the association in both directions to show the list of books in our Author routes. You should only do this if you want the associated author to be included in the json for books.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 1332,
+          "text": "",
+          "html": "<p>Use the <code>include</code> option in the Author controller.</p>",
+          "comments": "",
+          "comments_html": "<p><span><span>The <code>include</code> option is only necessary if you want to render data that’s nested more than one level deep.</span></span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3063,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
