@@ -4,7 +4,7 @@
     "title": "Active Model Serializer Quiz",
     "html_url": "https://learning.flatironschool.com/courses/4182/quizzes/18769",
     "mobile_url": "https://learning.flatironschool.com/courses/4182/quizzes/18769?force_user=1&persist_headless=1",
-    "description": "<p><span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.\\n\\nIf you don't know the answer to a question, please do not guess. Instead, select \\&quot;I don't know\\&quot;. It's OK not to know everything and to admit when we're unsure.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:33667,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:16573901},&quot;10&quot;:0,&quot;11&quot;:4,&quot;12&quot;:0,&quot;18&quot;:1}\">It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.<br><br>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-4-quiz-active-model-serializer\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-4-quiz-active-model-serializer/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 8385,
     "show_correct_answers_last_attempt": false,
-    "version_number": 1,
+    "version_number": 2,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -88,56 +88,46 @@
       "position": null,
       "question_name": "Active Model Serializer",
       "question_type": "multiple_answers_question",
-      "question_text": "<p><span>Which of the steps below are necessary to use Active Model Serializer in your application (select all that apply):</span></p>",
+      "question_text": "<p>Which of the following are true of the <code>ActiveModel::Serializer</code> gem? Select all\nthat apply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/assignments/120718\">Active Model Serializer</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "8805",
-          "text": "Add the gem to your gemfile and activate it by running `bundle install`",
+          "id": 2478,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! With the <code>ActiveModel::Serializer</code> gem installed, we can easily\nserialize our Active Record objects by creating a new class that inherits from\n<code>ActiveModel::Serializer</code> and follows the appropriate naming conventions.</p>",
+          "weight": 100.0,
+          "html": "<p>It follows <strong>convention over configuration</strong></p>"
+        },
+        {
+          "id": 5153,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Right! In a Rails application, separation of concerns is important since Rails\nfollows the Model-View-Controller pattern. <code>ActiveModel::Serializer</code> helps\nwhen creating classes that are responsible for converting an Active Record\nobject into a JSON string, acting like the view layer in our application.</p>",
+          "weight": 100.0,
+          "html": "<p>It helps with <strong>separation of concerns</strong></p>"
+        },
+        {
+          "id": 8098,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Rails has some of its own serialization methods built in, but\n<code>ActiveModel::Serializer</code> is a separate gem that we need to add to our\nprojects.</p>",
+          "weight": 0.0,
+          "html": "<p>It comes <strong>built in</strong> with Rails</p>"
+        },
+        {
+          "id": 6119,
+          "text": "",
           "comments": "",
           "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "7926",
-          "text": "Create a serializer, either directly or by using the Rails serializer generator",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "3631",
-          "text": "In the serializer, list out the attributes you want to be included in the json",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "5594",
-          "text": "Specify which serializer to use in the controller",
-          "comments": "",
-          "comments_html": "<p><span>This is only necessary if you give a serializer a name that doesn’t follow naming conventions</span></p>",
-          "weight": 0.0
-        },
-        {
-          "id": "9628",
-          "text": "Follow naming conventions in naming your serializer",
-          "comments": "",
-          "comments_html": "<p><span>While it is good practice to follow naming conventions, you can use a serializer with a non-standard name by passing it explicitly</span></p>",
-          "weight": 0.0
-        },
-        {
-          "id": "2735",
-          "text": "I don't know.",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -154,77 +144,47 @@
       "assessment_question_id": 134152,
       "position": null,
       "question_name": "Active Model Serializer",
-      "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p><span>Your app includes a User model with `first_name`, `last_name`, and `title` (“Ms.”, “Mx.”, etc.) attributes. You want the json for your User routes to include an honorific (for example, “Dr. Valdez”). Fill in the blanks in the custom method below to implement this:</span></p>\n<pre>#user_serializer.rb<br>def honorific<br>  \"#{[title]} #{[lastname]}\"<br>end</pre>\n<p>&nbsp;</p>",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Your app includes a User model with <code>first_name</code>, <code>last_name</code>, and <code>title</code>\n(\"Ms.\", \"Mx.\", etc.) attributes. You want to be able to include an honorific in\nthe JSON response for your User model (for example, \"Dr. Valdez\"). What code\ncould you write in the <code>UserSerializer</code> class to accomplish this?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/assignments/120718\">Active Model Serializer</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "878",
-          "text": "self.object.title",
+          "id": 6185,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># user_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">UserSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"k\">def</span> <span class=\"nf\">honorific</span>\n    <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">object</span><span class=\"p\">.</span><span class=\"nf\">title</span><span class=\"si\">}</span><span class=\"s2\"> </span><span class=\"si\">#{</span><span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">object</span><span class=\"p\">.</span><span class=\"nf\">last_name</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "title"
+          "comments_html": "<p>Right! In instance methods defined in the the <code>UserSerializer</code> class, <code>self</code>\nrefers to the <code>UserSerializer</code> instance, and <code>self.object</code> refers to the\nobject being serialized (the <code>User</code> instance).</p>",
+          "weight": 100.0
         },
         {
-          "id": "1372",
-          "text": "self.object.last_name",
+          "id": 7456,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># user_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">UserSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"k\">def</span> <span class=\"nf\">honorific</span>\n    <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">title</span><span class=\"si\">}</span><span class=\"s2\"> </span><span class=\"si\">#{</span><span class=\"nb\">self</span><span class=\"p\">.</span><span class=\"nf\">last_name</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "lastname"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 18769,
-      "id": 123865,
-      "quiz_group_id": null,
-      "assessment_question_id": 134153,
-      "position": null,
-      "question_name": "Active Model Serializer",
-      "question_type": "short_answer_question",
-      "question_text": "<p><span>Consider an app with Chef, Recipe and Review resources, where chefs have many recipes and recipes have many reviews. In the Chef show route, you want the json to include a list of the chef’s recipes and a list of each recipe’s reviews. Fill in the blank in the controller code below to implement this.</span></p>\n<pre><span>#chefs_controller.rb<br>def show<br>  chefs = Chef.all<br>  render json: chefs, include: [__________]<br>end</span></pre>\n<p>&nbsp;</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": "740",
-          "text": "'recipes', 'recipes.reviews'",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Not quite. In instance methods defined in the the <code>UserSerializer</code> class,\n<code>self</code> refers to the <code>UserSerializer</code> instance, not the <code>User</code> instance, so we\ncan't access the user's the <code>title</code> and <code>last_name</code> attributes directly.</p>",
+          "weight": 0.0
         },
         {
-          "id": "2721",
-          "text": "\"recipes\", \"recipes.reviews\"",
+          "id": 5992,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># user_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">UserSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"k\">def</span> <span class=\"nf\">honorific</span>\n    <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">title</span><span class=\"si\">}</span><span class=\"s2\"> </span><span class=\"si\">#{</span><span class=\"n\">last_name</span><span class=\"si\">}</span><span class=\"s2\">\"</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Not quite. The <code>title</code> and <code>last_name</code> methods are defined in the <code>User</code>\nclass, not the <code>UserSerializer</code> class, so we can't use them directly.</p>",
+          "weight": 0.0
         },
         {
-          "id": "4680",
-          "text": "recipes, recipes.reviews",
+          "id": 6987,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
           "comments_html": "",
-          "weight": 100
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -242,176 +202,38 @@
       "position": null,
       "question_name": "Active Model Serializer",
       "question_type": "multiple_answers_question",
-      "question_text": "<p><span>Consider an app with Chef, Recipe and Review resources, where chefs have many recipes and recipes have many reviews. In the Chef show route, you want the json to include a list of the chef’s recipes and a list of each recipe’s reviews. To produce the desired json for this route, you need to: (select all that apply)</span></p>",
+      "question_text": "<p>Consider an app with <code>Chef</code>, <code>Recipe</code> and <code>Review</code> resources, where chefs have many\nrecipes and recipes have many reviews.</p>\n\n<p>When a user makes a <code>GET</code> request to <code>/chefs/:id</code>, you want to send a JSON\nresponse that includes a list of the chef's recipes and a list of each recipe's\nreviews as follows:</p>\n<div class=\"highlight\"><pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"w\">\n  </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n  </span><span class=\"nl\">\"name\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Mary Berry\"</span><span class=\"p\">,</span><span class=\"w\">\n  </span><span class=\"nl\">\"recipes\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"name\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Classic Lemon Tart\"</span><span class=\"p\">,</span><span class=\"w\">\n      </span><span class=\"nl\">\"reviews\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n        </span><span class=\"p\">{</span><span class=\"w\">\n          </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n          </span><span class=\"nl\">\"score\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">10</span><span class=\"p\">,</span><span class=\"w\">\n          </span><span class=\"nl\">\"comment\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Worthy of a handshake!\"</span><span class=\"w\">\n        </span><span class=\"p\">}</span><span class=\"w\">\n      </span><span class=\"p\">]</span><span class=\"w\">\n    </span><span class=\"p\">}</span><span class=\"w\">\n  </span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"p\">}</span><span class=\"w\">\n</span></code></pre></div>\n<p>Select the serializer(s) that you would need to write to produce the desired\nJSON response. Select all that apply:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/assignments/120722\">Serializing Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "65",
+          "id": 6589,
           "text": "",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Spot on! Since we want the <strong>chef</strong> to include a nested array of <strong>recipes</strong>,\nwe need to include <code>has_many :recipes</code> in the <code>ChefSerializer</code>.</p>",
           "weight": 100.0,
-          "html": "<p>Include <code>has_many :recipes</code> in the Chef serializer</p>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">ChefSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:recipes</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": "8151",
+          "id": 9176,
           "text": "",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Right! Since we want each <strong>recipe</strong> to include a nested array of <strong>reviews</strong>,\nwe need to include <code>has_many :reviews</code> in the <code>RecipeSerializer</code>.</p>",
           "weight": 100.0,
-          "html": "<p>Include <code>has_many :reviews</code> in the Recipe serializer</p>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">RecipeSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:reviews</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": "8216",
+          "id": 2716,
           "text": "",
           "comments": "",
-          "comments_html": "<p><span>You should only include the <code>has_many</code> association method in the serializer that you want the reviews to be directly nested under in your json</span></p>",
+          "comments_html": "<p>Since we want the reviews nested under each recipe in our JSON, we only need\nto include <code>has_many :reviews</code> in the <code>RecipeSerializer</code>, not in the\n<code>ChefSerializer</code>.</p>",
           "weight": 0.0,
-          "html": "<p>Include <code>has_many :reviews</code> in the Chef serializer</p>"
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 18769,
-      "id": 123867,
-      "quiz_group_id": null,
-      "assessment_question_id": 134166,
-      "position": null,
-      "question_name": "Active Model Serializer",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p><span>Which of the following are advantages of using Active Model Serializer over Active Record’s <code>to_json</code> method to specify the structure of your json? (select all that apply)</span></p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": "741",
-          "text": "It keeps code that specifies how the response is structured out of the controllers.",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "2675",
-          "text": "It results in controller code that is easier to write, read and maintain.",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "4967",
-          "text": "It makes it unnecessary to build out json strings by hand, which is cumbersome and error prone.",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0
-        },
-        {
-          "id": "5919",
-          "text": "It gives you greater flexibility in terms of how your json is formatted (While Active Model Serializer makes it easier to specify the structure of your json, you can obtain the same results using either approach)",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
-        },
-        {
-          "id": "9563",
-          "text": "I don't know.",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 18769,
-      "id": 123868,
-      "quiz_group_id": null,
-      "assessment_question_id": 134167,
-      "position": null,
-      "question_name": "Active Model Serializer",
-      "question_type": "true_false_question",
-      "question_text": "<p><span>If you only have a single resource, there’s no advantage to using Active Model Serializer (false) ()</span></p>\n<p>&nbsp;</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "comments": "",
-          "comments_html": "<p><span>Even with just a single resource, if you want to specify which attributes to include in your json, using Active Model Serializer is more consistent with the Rails principle of separation of concerns.</span></p>",
-          "text": "True",
-          "weight": 0,
-          "id": 3536
-        },
-        {
-          "comments": "",
-          "comments_html": "",
-          "text": "False",
-          "weight": 100,
-          "id": 3967
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
-    },
-    {
-      "quiz_id": 18769,
-      "id": 123869,
-      "quiz_group_id": null,
-      "assessment_question_id": 134168,
-      "position": null,
-      "question_name": "Active Model Serializer",
-      "question_type": "true_false_question",
-      "question_text": "<p><span>You can explicitly specify a serializer to use inside another serializer.</span></p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "comments": "",
-          "comments_html": "",
-          "text": "True",
-          "weight": 100,
-          "id": 1503
-        },
-        {
-          "comments": "",
-          "comments_html": "",
-          "text": "False",
-          "weight": 0,
-          "id": 3573
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">ChefSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:recipes</span>\n  <span class=\"n\">has_many</span> <span class=\"ss\">:reviews</span><span class=\"p\">,</span> <span class=\"ss\">through: :recipes</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         }
       ],
       "variables": null,
@@ -429,51 +251,43 @@
       "position": null,
       "question_name": "Active Model Serializer",
       "question_type": "multiple_choice_question",
-      "question_text": "<ol start=\"8\">\n<li><span> Consider an app with Author and Book resources, where authors have many books and books belong to an author. You want to create two Book serializers: one to display details about books in the Book routes, and a second to use for the Author <code>show</code> route (AuthorBookSerializer) that displays just the title and publication date for each of the author’s books. Which of the following do you need to do:</span></li>\n</ol>\n<p><span><span>Use the `include` option in the Author controller. ()</span></span></p>",
+      "question_text": "<p>Consider an app with <code>Author</code> and <code>Book</code> resources, where <code>Author</code>s have many <code>Book</code>s\nand <code>Book</code>s belong to an <code>Author</code>.</p>\n\n<p>When a user makes a <code>GET</code> request to <code>/authors/:id</code>, you want to use a custom\nserializer, the <code>CustomBookSerializer</code>, instead of the default <code>BookSerializer</code>,\nfor generating the JSON for each book associated with the author:</p>\n<div class=\"highlight\"><pre class=\"highlight json\"><code><span class=\"p\">{</span><span class=\"w\">\n  </span><span class=\"nl\">\"id\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"mi\">1</span><span class=\"p\">,</span><span class=\"w\">\n  </span><span class=\"nl\">\"name\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Mary Berry\"</span><span class=\"p\">,</span><span class=\"w\">\n  </span><span class=\"nl\">\"books\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"p\">[</span><span class=\"w\">\n    </span><span class=\"p\">{</span><span class=\"w\">\n      </span><span class=\"nl\">\"title\"</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"s2\">\"Recipe for Life\"</span><span class=\"w\">\n    </span><span class=\"p\">}</span><span class=\"w\">\n  </span><span class=\"p\">]</span><span class=\"w\">\n</span><span class=\"p\">}</span><span class=\"w\">\n</span></code></pre></div>\n<p>Which of the following code snippets uses the <code>CustomBookSerializer</code> correctly?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/4182/assignments/120722\">Serializing Associations</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5608,
-          "text": "Explicitly pass the AuthorBookSerializer in the Author serializer.",
-          "html": "",
+          "id": 6080,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># app/serializers/custom_book_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">CustomBookSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:title</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/serializers/author_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n\n  <span class=\"n\">has_many</span> <span class=\"ss\">:books</span><span class=\"p\">,</span> <span class=\"ss\">serializer: </span><span class=\"no\">CustomBookSerializer</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/controllers/authors_controller.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorsController</span> <span class=\"o\">&lt;</span> <span class=\"no\">ApplicationController</span>\n  <span class=\"k\">def</span> <span class=\"nf\">show</span>\n    <span class=\"n\">author</span> <span class=\"o\">=</span> <span class=\"no\">Author</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"n\">params</span><span class=\"p\">[</span><span class=\"ss\">:id</span><span class=\"p\">])</span>\n    <span class=\"n\">render</span> <span class=\"ss\">json: </span><span class=\"n\">author</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Right! The <code>has_many</code> macro typically uses naming conventions to serialize an\nassociated resource, but we can <strong>explicitly</strong> tell it to use a different\nserializer with the <code>serializer</code> option.</p>",
           "weight": 100.0
         },
         {
-          "id": 1801,
-          "text": "Explicitly pass the AuthorBookSerializer in the Author controller.",
-          "html": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
-        },
-        {
-          "id": 4768,
+          "id": 4611,
           "text": "",
-          "html": "<p>Include the <code>belongs_to :author</code> association method in the Book serializer.</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># app/serializers/custom_book_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">CustomBookSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:title</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/serializers/author_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n\n  <span class=\"n\">has_many</span> <span class=\"ss\">:books</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/controllers/authors_controller.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorsController</span> <span class=\"o\">&lt;</span> <span class=\"no\">ApplicationController</span>\n  <span class=\"k\">def</span> <span class=\"nf\">show</span>\n    <span class=\"n\">author</span> <span class=\"o\">=</span> <span class=\"no\">Author</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"n\">params</span><span class=\"p\">[</span><span class=\"ss\">:id</span><span class=\"p\">])</span>\n    <span class=\"n\">render</span> <span class=\"ss\">json: </span><span class=\"n\">author</span><span class=\"p\">,</span> <span class=\"ss\">serializer: </span><span class=\"no\">CustomBookSerializer</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p><span>This is a tricky one! It is not necessary to complete the association in both directions to show the list of books in our Author routes. You should only do this if you want the associated author to be included in the json for books.</span></p>",
+          "comments_html": "<p>Not quite. When using the <code>serializer</code> option along with the <code>render</code> method,\nwe'd be using the <code>CustomBookSerializer</code> to serialize the <code>author</code> object\ninstead of the books associated with the author.</p>",
           "weight": 0.0
         },
         {
-          "id": 1332,
+          "id": 1964,
           "text": "",
-          "html": "<p>Use the <code>include</code> option in the Author controller.</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"c1\"># app/serializers/custom_book_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">CustomBookSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:title</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/serializers/author_serializer.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorSerializer</span> <span class=\"o\">&lt;</span> <span class=\"no\">ActiveModel</span><span class=\"o\">::</span><span class=\"no\">Serializer</span>\n  <span class=\"n\">attributes</span> <span class=\"ss\">:id</span><span class=\"p\">,</span> <span class=\"ss\">:name</span>\n\n  <span class=\"n\">has_many</span> <span class=\"ss\">:books</span>\n<span class=\"k\">end</span>\n\n<span class=\"c1\"># app/controllers/authors_controller.rb</span>\n<span class=\"k\">class</span> <span class=\"nc\">AuthorsController</span> <span class=\"o\">&lt;</span> <span class=\"no\">ApplicationController</span>\n  <span class=\"k\">def</span> <span class=\"nf\">show</span>\n    <span class=\"n\">author</span> <span class=\"o\">=</span> <span class=\"no\">Author</span><span class=\"p\">.</span><span class=\"nf\">find</span><span class=\"p\">(</span><span class=\"n\">params</span><span class=\"p\">[</span><span class=\"ss\">:id</span><span class=\"p\">])</span>\n    <span class=\"n\">render</span> <span class=\"ss\">json: </span><span class=\"n\">author</span><span class=\"p\">,</span> <span class=\"ss\">include: </span><span class=\"p\">[</span><span class=\"s1\">'custom_books'</span><span class=\"p\">]</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p><span><span>The <code>include</code> option is only necessary if you want to render data that’s nested more than one level deep.</span></span></p>",
+          "comments_html": "<p>The <code>include</code> option is only necessary if you want to render data that’s nested\nmore than one level deep —&nbsp;it doesn't help here with our custom serializer.</p>",
           "weight": 0.0
         },
         {
-          "id": 3063,
-          "text": "I don't know.",
-          "html": "",
+          "id": 6956,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
           "comments_html": "",
           "weight": 0.0
